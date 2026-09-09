@@ -16,9 +16,12 @@ Add a row for every problem. **Status is the important column — be honest.**
 
 | Wk | Day | Problem | Difficulty | Time | Status | Pattern | Note |
 | -- | --- | ------- | ---------- | ---- | ------ | ------- | ---- |
-|    |     |         |            |      |        |         |      |
-|    |     |         |            |      |        |         |      |
-|    |     |         |            |      |        |         |      |
+| 1 | Tuesday | Concatenation of Array | Easy | 1 min | S | Array | Append the array to itself |
+| 1 | Tuesday | Remove Duplicates from Sorted Array | Easy | 2 min | S | Two Pointers | Keep unique elements in-place |
+| 1 | Tuesday | Reverse String | Easy | 1 min | S | Two Pointers | Swap from both ends |
+| 1 | Tuesday | Richest Customer Wealth | Easy | 1 min | S | Array / Traversal | Calculate maximum row sum |
+| 1 | Tuesday | Running Sum of 1D Array | Easy | 1 min | S | Prefix Sum | Maintain cumulative sum |
+| 1 | Tuesday | Shuffle the Array | Easy | 5 min | S | Array / Indexing | Interleave the two halves |
 
 **Fill in the pattern column every time.** By week 16 this table is your personal revision sheet, sorted by pattern — and it is far more useful than any list you could download.
 
