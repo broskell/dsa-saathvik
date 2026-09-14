@@ -22,6 +22,30 @@ Add a row for every problem. **Status is the important column — be honest.**
 | 1 | Tuesday | Richest Customer Wealth | Easy | 1 min | S | Array / Traversal | Calculate maximum row sum |
 | 1 | Tuesday | Running Sum of 1D Array | Easy | 1 min | S | Prefix Sum | Maintain cumulative sum |
 | 1 | Tuesday | Shuffle the Array | Easy | 5 min | S | Array / Indexing | Interleave the two halves |
+| 1 | Wednesday | Contains Duplicate | Easy | 5 min | S | Hash Set | Track visited numbers for O(1) duplicate check |
+| 1 | Wednesday | Valid Anagram | Easy | 5 min | S | Frequency Counter | Compare character counts using Counter |
+| 1 | Wednesday | Two Sum | Easy | 10 min | S | Hash Map / Complement | Store value -> index and lookup complement |
+| 1 | Wednesday | First Unique Character in a String | Easy | 8 min | S | Frequency Counter | Two-pass scan to find first count of 1 |
+| 1 | Wednesday | Group Anagrams | Medium | 15 min | S | Hash Map / Grouping | Key by tuple of character count frequencies |
+| 1 | Wednesday | Intersection of Two Arrays | Easy | 5 min | S | Set Intersection | Compute hash set intersection |
+| 1 | Wednesday | Single Number | Easy | 5 min | S | Bit Manipulation | XOR all elements so pairs cancel out |
+| 1 | Thursday | Best Time to Buy and Sell Stock | Easy | 10 min | S | Dynamic Programming | Single pass tracking min price seen so far |
+| 1 | Thursday | Majority Element | Easy | 10 min | S | Boyer-Moore Voting | Candidate counter for linear majority element |
+| 1 | Thursday | Maximum Subarray | Easy | 15 min | S | Kadane's Algorithm | Running maximum subarray sum |
+| 1 | Thursday | Missing Number | Easy | 5 min | S | Math / Sum | Expected formula sum minus actual sum |
+| 1 | Thursday | Find All Numbers Disappeared in an Array | Easy | 12 min | S | In-place Marking | Use index negation for O(1) space tracking |
+| 1 | Friday | Concatenation of Array | Easy | 1 min | S | Array | Contest 1 P1 upsolve |
+| 1 | Friday | Contains Duplicate | Easy | 3 min | S | Hash Set | Contest 1 P2 upsolve |
+| 1 | Friday | Two Sum | Easy | 5 min | S | Hash Map | Contest 1 P3 upsolve |
+| 1 | Friday | Group Anagrams | Medium | 12 min | S | Hash Map | Contest 1 P4 upsolve |
+| 1 | Weekend | Intersection of Two Arrays II | Easy | 10 min | S | Counter / Hash Map | Match element frequencies across arrays |
+| 1 | Weekend | Move Zeroes | Easy | 8 min | S | Two Pointers | Read/write pointers moving non-zeroes forward |
+| 1 | Weekend | Valid Palindrome | Easy | 10 min | S | Two Pointers | Opposite ends pointers skipping non-alphanumeric |
+| 1 | Weekend | Merge Sorted Array | Easy | 12 min | S | Two Pointers | Fill from back of array to avoid overwriting |
+| 1 | Weekend | Top K Frequent Elements | Medium | 20 min | S | Bucket Sort | Bucket sort by frequency counts for O(n) time |
+| 1 | Weekend | Product of Array Except Self | Medium | 25 min | S | Prefix / Suffix Product | Two passes calculating prefix and suffix products |
+| 1 | Weekend | Two Sum (Revision) | Easy | 3 min | R | Hash Map | Timed re-solve from blank file |
+| 1 | Weekend | Valid Anagram (Revision) | Easy | 2 min | R | Frequency Counter | Timed re-solve from blank file |
 
 **Fill in the pattern column every time.** By week 16 this table is your personal revision sheet, sorted by pattern — and it is far more useful than any list you could download.
 
@@ -47,7 +71,7 @@ A problem lands here when you needed a hint, read the editorial, took as long on
 
 | # | Week | Solved | Attempted | Rank | Upsolved? | What cost me the most |
 | - | ---- | ------ | --------- | ---- | --------- | --------------------- |
-|   |      |        |           |      |           |                       |
+| 1 | 1 | 4 | 4 | 1 | Yes | Key selection logic in Group Anagrams |
 |   |      |        |           |      |           |                       |
 |   |      |        |           |      |           |                       |
 |   |      |        |           |      |           |                       |
@@ -147,7 +171,7 @@ One or two lines each week. It takes two minutes and it is the fastest way to no
 
 | Wk | Hardest thing | What clicked | Falling behind on |
 | -- | ------------- | ------------ | ----------------- |
-| 1  |               |              |                   |
+| 1  | Selecting hash keys for Group Anagrams & product without division | Hash map complement lookup & O(1) set lookups | None |
 | 2  |               |              |                   |
 | 3  |               |              |                   |
 | 4  |               |              |                   |
